@@ -1,0 +1,44 @@
+﻿Build started 2016-06-13 10:14:46.
+     1>Project "E:\Studia\GK\lab8a_rozw\lab8a_rozw\lab1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Pliki programów (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IE:\Studia\GK\lab8a_rozw\lab8a_rozw\Include /IE:\Studia\GK\lab8a_rozw\lab8a_rozw /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt scene.cpp
+         scene.cpp
+     1>e:\studia\gk\lab8a_rozw\lab8a_rozw\scene.cpp(28): warning C4305: '=' : truncation from 'double' to 'float'
+     1>e:\studia\gk\lab8a_rozw\lab8a_rozw\scene.cpp(29): warning C4305: '=' : truncation from 'double' to 'float'
+     1>e:\studia\gk\lab8a_rozw\lab8a_rozw\scene.cpp(35): warning C4305: '=' : truncation from 'double' to 'float'
+     1>e:\studia\gk\lab8a_rozw\lab8a_rozw\scene.cpp(36): warning C4305: '=' : truncation from 'double' to 'float'
+     1>e:\studia\gk\lab8a_rozw\lab8a_rozw\scene.cpp(68): warning C4305: '=' : truncation from 'double' to 'float'
+     1>e:\studia\gk\lab8a_rozw\lab8a_rozw\scene.cpp(78): warning C4305: '=' : truncation from 'double' to 'float'
+     1>e:\studia\gk\lab8a_rozw\lab8a_rozw\scene.cpp(87): warning C4305: '=' : truncation from 'double' to 'float'
+     1>e:\studia\gk\lab8a_rozw\lab8a_rozw\scene.cpp(96): warning C4305: '=' : truncation from 'double' to 'float'
+     1>e:\studia\gk\lab8a_rozw\lab8a_rozw\scene.cpp(350): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>e:\studia\gk\lab8a_rozw\lab8a_rozw\scene.cpp(351): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>e:\studia\gk\lab8a_rozw\lab8a_rozw\scene.cpp(393): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>e:\studia\gk\lab8a_rozw\lab8a_rozw\scene.cpp(394): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>e:\studia\gk\lab8a_rozw\lab8a_rozw\scene.cpp(563): warning C4305: '=' : truncation from 'double' to 'float'
+     1>e:\studia\gk\lab8a_rozw\lab8a_rozw\scene.cpp(565): warning C4305: '=' : truncation from 'double' to 'float'
+     1>e:\studia\gk\lab8a_rozw\lab8a_rozw\scene.cpp(610): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\studia\gk\lab8a_rozw\lab8a_rozw\scene.cpp(626): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\studia\gk\lab8a_rozw\lab8a_rozw\scene.cpp(658): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\studia\gk\lab8a_rozw\lab8a_rozw\scene.cpp(660): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\studia\gk\lab8a_rozw\lab8a_rozw\scene.cpp(674): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\studia\gk\lab8a_rozw\lab8a_rozw\scene.cpp(676): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\studia\gk\lab8a_rozw\lab8a_rozw\scene.cpp(688): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\studia\gk\lab8a_rozw\lab8a_rozw\scene.cpp(690): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\studia\gk\lab8a_rozw\lab8a_rozw\scene.cpp(706): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\studia\gk\lab8a_rozw\lab8a_rozw\scene.cpp(708): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         E:\Pliki programów (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Studia\GK\lab8a_rozw\lab8a_rozw\Debug\lab1.exe" /INCREMENTAL /NOLOGO /LIBPATH:E:\Studia\GK\lab8a_rozw\lab8a_rozw\Lib freetype240MT_D.lib E:\Studia\GK\lab8a_rozw\lab8a_rozw\Lib\assimp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmtd /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Studia\GK\lab8a_rozw\lab8a_rozw\Debug\lab1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Studia\GK\lab8a_rozw\lab8a_rozw\Debug\lab1.lib" /MACHINE:X86 Debug\common.obj
+         Debug\main.obj
+         Debug\globject.obj
+         Debug\math_3d.obj
+         Debug\mesh.obj
+         Debug\printer.obj
+         Debug\scene.obj
+         Debug\texture.obj
+         lab1.vcxproj -> E:\Studia\GK\lab8a_rozw\lab8a_rozw\Debug\lab1.exe
+     1>Done Building Project "E:\Studia\GK\lab8a_rozw\lab8a_rozw\lab1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.35
