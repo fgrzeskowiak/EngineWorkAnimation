@@ -550,13 +550,6 @@ void Scene::Draw(int Selection)
 	glUniform1f(_colorAlpha, colorAlpha);
 	
 	
-	/*if (ObjectSelected == 11)
-	{
-		mTransform = glm::scale(mTransform, glm::vec3(0.9f, 0.9f, 0.9f));		
-	}
-		glUniformMatrix4fv(_NormalMatrix, 1, GL_FALSE, glm::value_ptr(glm::transpose(glm::inverse(mTransform))));	
-		glUniformMatrix4fv(_ModelView, 1, GL_FALSE, glm::value_ptr(mModelView*mTransform));
-	*/
 	// nadaj ID obiektu
 	
 	if (crankRot > 7.854)
@@ -729,31 +722,7 @@ void Scene::Draw(int Selection)
 	//--------------------------------------------------
 	// Rysowanie w trybie ortogonalnym
 	//--------------------------------------------------
-//mTransform = glm::scale(mTransform,
-//	glm::vec3(0.5 / float(Prn->CharWidth), 0.5 / float(Prn->CharHeight), 1.0));
-//glUniformMatrix4fv(_NormalMatrix, 1, GL_FALSE,
-//	glm::value_ptr(glm::transpose(glm::inverse(mTransform))));
-//glUniformMatrix4fv(_Model, 1, GL_FALSE,
-//	glm::value_ptr(mModel*mTransform));
-
-/*mTransform = glm::scale(mTransform,
-	glm::vec3(0.5 / float(Prn->CharWidth), 0.5 / float(Prn->CharHeight), 1.0));
-glUniformMatrix4fv(_NormalMatrix, 1, GL_FALSE,
-	glm::value_ptr(glm::transpose(glm::inverse(mTransform))));
-glUniformMatrix4fv(_Model, 1, GL_FALSE,
-	glm::value_ptr(mModel * mView *mTransform));*/
 
 	
-	////////////////////////////////////////////////////////////////////////////////////////////////
-	/*if (crankRot != crankRot2) {
-		crankRot2 = crankRot;
-		crankRot2Deg = crankRot2*57.2957795f;
-		sprintf(_msg, "valveMove: %f", colorAlpha);
-		PrintLog(_msg);
-	}*/
-
-	/*ObjectId = 12;
-	glUniform1i(_ObjectId,ObjectId);
-	Obj1->Draw();*/
 }	
 //------------------------------- KONIEC PLIKU -----------------------------------------------
